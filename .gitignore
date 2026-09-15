@@ -1,0 +1,12 @@
+_HOLD_FOR_FINALIZATION/
+.DS_Store
+.env
+.env.*
+*api-key*
+*api_key*
+*access-token*
+*access_token*
+raw_responses/
+logs/
+__pycache__/
+*.pyc
