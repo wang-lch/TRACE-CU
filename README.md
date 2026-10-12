@@ -1,6 +1,6 @@
-# TRACE-CU Evaluation Statistics and Supplementary Materials
+# TRACE-CU Data and Statistical Archive
 
-This repository accompanies the TRACE-CU manuscript and provides pseudonymized statistical records for verifying the reported evaluation summaries, confidence intervals, paired comparisons, and failure counts.
+This repository accompanies the TRACE-CU manuscript and contains publication lists and retained count-based statistical materials.
 
 ## Public Scope
 
@@ -19,13 +19,14 @@ This is an author-selected access policy, not a legal, copyright, or participant
 | Directory | Public contents |
 |---|---|
 | `splits/` | Development (10) and held-out (90) PMID lists |
-| `documents/` | Archived Supplementary Materials 1-5 in DOCX format |
 | `evaluation/summary_metrics/` | Point estimates, class-level PIO metrics, 95% confidence intervals, and paired comparisons |
 | `evaluation/publication_level/` | Pseudonymized publication-level count workbooks for Tables 3-5 |
 | `evaluation/bootstrap/` | Publication-level bootstrap distributions |
 | `evaluation/failure_analysis/` | Aggregate failure counts and 53 pseudonymized CU-level failure records |
 
-The five repository documents retain their existing filenames. Their topics correspond to Multimedia Appendices 4-8 in the third-round revision. Updated journal appendices are supplied with the manuscript; this repository update does not replace the archived DOCX files.
+Multimedia Appendices 1-8 are submitted with the manuscript and are not duplicated in this repository. The former Supplementary Materials 1-5 correspond to journal Multimedia Appendices 4-8. Their older DOCX copies have been removed from the current repository tree; earlier commits retain the historical versions.
+
+This document-packaging update leaves the statistical data files unchanged from commit `0d1cab23bc3436d81f3fa17533f9251a4e20c81d`. This commit changes document packaging and navigation only.
 
 ## Evaluation Scope
 
@@ -40,16 +41,16 @@ The five repository documents retain their existing filenames. Their topics corr
 
 The public workbooks retain only metric numerators and denominators. They do not disclose the clinical content of gold or predicted CUs.
 
-## Verifying the Reported Statistics
+## Checking Arithmetic Reproducibility
 
 1. Sum the publication-level count columns within each worksheet in `evaluation/publication_level/`.
-2. Recalculate the point estimates using the metric definitions in Supplementary Material 3.
+2. Recalculate the point estimates using the metric definitions in Multimedia Appendix 6 supplied with the manuscript.
 3. Use the distributions in `evaluation/bootstrap/` to verify the percentile 95% confidence intervals and paired comparisons.
-4. Compare the resulting values with `evaluation/summary_metrics/` and Supplementary Material 3.
+4. Compare the resulting values with `evaluation/summary_metrics/` and Multimedia Appendix 6 supplied with the manuscript.
 
 ## Failure Statistics
 
-Supplementary Material 5 reports 53 distinct CU-level failure records. The pseudonymized `02_failure_cu_records.csv` provides the corresponding count encodings and concise English reasons without publication text or complete CU content. Aggregate failure categories are provided in `01_failure_summary.csv`.
+Multimedia Appendix 8 supplied with the manuscript describes the CU-level scoring records and illustrative cases. The pseudonymized `02_failure_cu_records.csv` provides the corresponding count encodings and concise English reasons without publication text or complete CU content. Aggregate failure categories are provided in `01_failure_summary.csv`.
 
 ## Citation and Versioning
 
