@@ -26,7 +26,7 @@ This is an author-selected access policy, not a legal, copyright, or participant
 
 Multimedia Appendices 1-8 are submitted with the manuscript and are not duplicated in this repository. The former Supplementary Materials 1-5 correspond to journal Multimedia Appendices 4-8. Their older DOCX copies have been removed from the current repository tree; earlier commits retain the historical versions.
 
-This document-packaging update leaves the statistical data files unchanged from commit `0d1cab23bc3436d81f3fa17533f9251a4e20c81d`. This commit changes document packaging and navigation only.
+The package contains publication-level count matrices and bootstrap distributions for the statistical summaries in Multimedia Appendix 6. Failure categories, count encodings, and English record explanations correspond to the scoring classifications described in Multimedia Appendix 8.
 
 ## Evaluation Scope
 

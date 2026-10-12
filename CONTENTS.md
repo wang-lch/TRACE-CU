@@ -4,6 +4,15 @@
 
 Multimedia Appendices 1-8 are submitted with the manuscript. No duplicate appendix DOCX or PDF files are included in this repository.
 
+## Documentation and License
+
+- `README.md`: public scope, data access, evaluation scope, and arithmetic reproducibility.
+- `CONTENTS.md`: package file directory.
+- `LICENSE.md`: license for the released documentation and statistical data.
+- `evaluation/README.md`: statistical file organization and bootstrap settings.
+- `evaluation/failure_analysis/README.md`: failure-record definitions, denominators, and interpretation.
+- `.gitignore`: exclusions for local system files, credentials, and runtime artifacts.
+
 ## Publication Lists
 
 - `splits/development_10_pmids.csv`: 10 development publications.
@@ -36,7 +45,7 @@ All publication identifiers in these workbooks use `EVAL001-EVAL090`.
 - `evaluation/failure_analysis/01_failure_summary.csv`
 - `evaluation/failure_analysis/02_failure_cu_records.csv`
 
-Illustrative cases are described in Multimedia Appendix 8 supplied with the manuscript. They are not duplicated as a separate case file here. Existing statistical files are unchanged in this document-packaging update.
+Illustrative cases are described in Multimedia Appendix 8 supplied with the manuscript and are not duplicated as a separate case file here. The failure files contain count summaries and record-level scoring classifications with English explanations.
 
 ## Excluded From Public Release
 
